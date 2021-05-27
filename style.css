@@ -1,0 +1,61 @@
+.box{
+
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 27vw;
+    font-weight: bolder;
+    padding: 10px;
+    width:45vw ;
+    height: 85vh;
+    border: 2px solid black;
+    border-radius:25px;
+    word-wrap: break-word;
+}
+/* this is for the sizing of the box */
+.box2{
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 99px;
+    height: 282px;
+    word-wrap: break-word;
+
+}
+input{
+    margin: 11px;
+    border-radius: 6px;
+}
+h1{
+    
+    color: rgb(119, 118, 118);
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+#years{
+    width: 40px;
+   
+} 
+button {
+    margin-top: 7px;
+    margin-bottom: 97px;
+}
+footer{
+    position: relative;
+    bottom: 33px;
+    left: 303px;
+    height: 23px;
+    width: 499px;
+    text-align: left;
+    font-size: 21px;
+    background:white;
+    word-wrap: break-word;
+}
+.box3{
+    box-sizing: border-box;
+    position: relative;
+    bottom: 66px;
+    color: rgb(0, 0, 0);
+    background: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family:  'Times New Roman', Times, serif;
+    word-wrap: break-word;
+}
