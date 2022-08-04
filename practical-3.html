@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> Registration Form
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        
+        #btn{
+            background-color: #4790f0df;
+            color: white;
+        }
+        #btn:hover{
+            box-shadow: outset 2px 2px 3px 1px ;
+            background-color: rgb(0, 0, 0);
+            animation-duration: 4s;
+
+        }
+        div {
+            margin-right: 422px;
+    padding-left: 30px;
+    background-image: linear-gradient(to right,#1c87c9,#8cbf42,#7c15abe6);
+    box-shadow: grey 20px 14px 3px 1px;
+    
+}
+    </style>
+
+</head>
+
+<body >
+
+   <br><br> <div><form action="submit"><br><br>
+        <label>Firstname</label>
+        <input type="text " name="Firstname" placeholder="enter your firstname"> <br><br>
+        <label>Lastname</label>
+        <input type="text" name="Lastname" placeholder="enter your lastname"> <br><br>
+        <label>Surname</label>
+        <input type="text" name="Surname" placeholder="enter your surname"> <br><br>
+        <label>course</label>
+        <select size="1">
+
+            <option value="EE">EE</option>
+            <option value="CH">CH</option>
+            <option value="IT">IT</option>
+            <option value="CE">CE</option>
+
+        </select><br><br>
+        <label>Gender</label><br><br>
+
+        <input type="radio" name="male">male</input><br><br>
+
+        <input type="radio" name="male">female</input><br><br>
+
+        <input type="radio" name="male">other</input><br><br>
+        <label>Phone no</label>
+        <input type="phone" name="country code" size="10" value="+91" pattern="0-9"><br><br>
+        <label>address</label> <br>
+        <textarea cols="30" rows="5" value="address"> </textarea> <br> <br>
+        <label>email</label>
+        <input type="email" name="email"><br><br>
+        <label>password</label>
+        <input type="password" name="password"><br><br>
+        <label>Rewrite password</label>
+        <input type="password" name="password"><br><br>
+        <button id="btn" type="reset">Reset</button> 
+        <button id="btn" type="reset"  >Submit</button><br><br>
+    </form></div> 
+</body>
+
+</html>
